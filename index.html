@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="left">
+          <p class="title">Your Result</p>
+          <div class="circle">
+            <p class="value">76</p>
+            <p class="max-value">of 100</p>
+          </div>
+          <p class="rating">Great</p>
+          <p class="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="right">
+          <p class="title2">Summary</p>
+          <div class="cards">
+            <div class="item red">
+              <img
+                src="assets/images/icon-reaction.svg"
+                alt="icon of thunderbolt"
+              />
+              <p class="item-name">Reaction</p>
+              <p class="item-value"><span>80</span> / 100</p>
+            </div>
+            <div class="item orange">
+              <img src="assets/images/icon-memory.svg" alt="icon of brain" />
+              <p class="item-name">Memory</p>
+              <p class="item-value"><span>92</span> / 100</p>
+            </div>
+            <div class="item green">
+              <img
+                src="assets/images/icon-verbal.svg"
+                alt="icon of chat bubble"
+              />
+              <p class="item-name">Verbal</p>
+              <p class="item-value"><span>61</span> / 100</p>
+            </div>
+            <div class="item blue">
+              <img src="assets/images/icon-visual.svg" alt="icon of eye" />
+              <p class="item-name">Visual</p>
+              <p class="item-value"><span>72</span> / 100</p>
+            </div>
+            <button>Continue</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/domidebogdan"
+          >Domide Bogdan</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
